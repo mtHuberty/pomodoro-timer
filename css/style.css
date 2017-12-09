@@ -1,0 +1,51 @@
+body {
+  background: steelblue;
+  background: -webkit-linear-gradient(-90deg, steelblue, #4612B4); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, steelblue, #4612B4); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, steelblue, #4612B4); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, steelblue, #4612B4); /* Standard syntax */
+}
+
+h2 {
+  color: whitesmoke;
+  user-select: none;
+}
+
+.row {
+  padding: 0px 0px 65px 0px;
+}
+
+.time {
+  text-align: center;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+#title {
+  font-size: 60px;
+  font-family: 'Pacifico', cursive;
+  color: whitesmoke;
+  text-align: center;
+  margin: 100px 0 70px 0;
+}
+
+#timer {
+  height: 60px;
+  width: 60%;
+  background: coral;
+  margin: auto;
+}
+
+#progress {
+  background:darkseagreen;
+  width: 0%;
+  height: 100%;
+}
+
+#breakProgress {
+  background:deeppink;
+  width: 0%;
+  height: 100%;
+}

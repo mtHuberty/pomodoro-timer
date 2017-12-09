@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap-grid.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="title">Pomodoro</h1>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <button class="btn btn-lg btn-secondary" onclick="startTimer()">Start</button>
+        <button class="btn btn-lg float-right btn-secondary" onclick="stopTimer()">Stop</button>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="text-center">Timer</h2>
+        <h2 class="time"><span id="minusTimerTime" class="pointer">- </span><span id="timerTime">25</span><span id="plusTimerTime" class="pointer"> +</span></h2>
+      </div>
+      <div class="col-md-6">
+        <h2 class="text-center">Break</h2>
+        <h2 class="time"><span id="minusBreakTime" class="pointer">- </span><span id="breakTime">5</span><span id="plusBreakTime" class="pointer"> +</span></h2>
+      </div>
+    </div>
+  </div>
+  <div id="timer">
+    <div id="progress">
+      <div id="breakProgress" class="float-right">
+        
+      </div>
+    </div>
+  </div>
+  
+  
+</body>
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
